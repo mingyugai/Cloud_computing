@@ -58,7 +58,6 @@ def main(args):
     file_list = _read_all_files(args.input_path)
     newfile_list = []
     for file in file_list:
-        # TODO, put such condition when call readAllFiles()
         with open(args.input_path + file) as f:
             doc = f.readlines()
             for line in doc:
@@ -76,12 +75,3 @@ if __name__ == '__main__':
     parser.add_argument("-n", "--name",help="file name of output")
     args = parser.parse_args()
     main(args)
-
-
-
-
-
-
-
-
-

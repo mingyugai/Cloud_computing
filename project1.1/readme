@@ -1,0 +1,5 @@
+This function is used to read files in one directory, clean the files and then save into a new file.
+
+cmd:
+python project1.1.py  --input-path /Users/mingyugai/Downloads/files/ --out-path  /Users/mingyugai/Downloads/ --name  testfile.txt
+
